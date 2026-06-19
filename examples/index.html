@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loop basics (simplified demo)</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #0b1d33; color: #fff;
+           max-width: 480px; margin: 40px auto; padding: 0 16px; }
+    button { font-size: 18px; padding: 16px 24px; border-radius: 10px; border: 0;
+             background: #2a7fc9; color: #fff; width: 100%; touch-action: none;
+             user-select: none; -webkit-user-select: none; }
+    label { display: block; margin-top: 16px; }
+    input { width: 100%; }
+    p { color: #9db4cc; }
+  </style>
+</head>
+<body>
+  <h1>Loop basics</h1>
+  <p>Simplified demo of the Sound Loop idea. Not the full project.
+     Use headphones. Hold the button, make a sound, let go.</p>
+
+  <label>Pan (left to right) <input id="pan" type="range" min="-1" max="1" step="0.1" value="0"></label>
+  <label>Pitch (low to high) <input id="pitch" type="range" min="0.5" max="2" step="0.1" value="1"></label>
+  <br><br>
+  <button id="rec">Hold to record</button>
+  <p id="status">Loops: 0</p>
+
+  <script src="loop-basics.js"></script>
+</body>
+</html>

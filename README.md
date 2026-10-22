@@ -2,7 +2,7 @@
 
 A tribute to Welcome Park on the PS Vita. Hold to record your voice through the mic, it turns into a floating orb that loops forever, and you drag the orbs around to change pan and pitch.
 
-**Live demo: https://soundloopvita.vercel.app/**
+**Demo: https://soundloopvita.vercel.app/**
 
 Use headphones and allow the microphone. Best on desktop Chrome for now.
 
